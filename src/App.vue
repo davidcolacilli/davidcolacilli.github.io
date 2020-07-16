@@ -7,7 +7,7 @@
         <!-- </router-link> -->
       </header>
       <nav class="main-nav">
-        <router-link to="/about">About</router-link>
+        <router-link to="/">About</router-link>
         <router-link to="/work">Work</router-link>
       </nav>
       <router-view></router-view>

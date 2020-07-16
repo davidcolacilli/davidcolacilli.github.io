@@ -26,128 +26,93 @@ export default {
 }
 </script>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Montserrat:wght@0,400;1,700&display=swap');
 
 html {
   /* background: no-repeat url('./assets/yosemite-unsplash.jpeg');
   background-size: cover;*/
-  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 body {
   margin: 0;
+  font-family: Lora, Georgia, Cambria, "Times New Roman", Times, serif;
+  color:rgba(41, 41, 41, 1);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-.container {
-  padding: 1rem;
-  max-width: 40rem;
-  margin: 0 auto;
-}
-header {
-  padding: 2em 0;
-  border-bottom: 1px solid #eee;
-}
-h1, h2, h3, h4, h5, h6, dl, dd, ol, ul, menu, figure, blockquote, p, pre, form {
-  margin: 0;
+h1, h2, h3, h4, h5, h6, nav {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  letter-spacing: -0.32px;
+  line-height: 1;
 }
 h1 {
+  color: rgba(2, 125, 182, 1);
   margin: 0;
-  font-size: 1.6rem;
 }
 h1 + p {
-  margin-top: 0;
+  margin-top: -.25rem;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
   font-size: .9rem;
+  text-transform: uppercase;
+  color:rgba(41, 41, 41, .75);
 }
 h2 {
-  font-family: Vollkorn, Georgia, Cambria, "Times New Roman", Times, serif;
-  letter-spacing: 0;
-  line-height: 1.23;
-  color: rgba(41, 41, 41, 1);
-  font-style: normal;
-  font-weight: 400;
+  color: rgba(120, 120, 120, 1);
 }
 h3 {
-  margin-bottom: -0.28em;
-  font-weight: 600;
-  letter-spacing: -0.022em;
-  line-height: 1.12;
-  color: rgba(41, 41, 41, 1);
-  font-style: normal;
-  font-family: 'PT Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  color: rgba(120, 120, 120, 1);
 }
 h4 {
-  letter-spacing: -0.32px;
-  font-size: 21.6px;
-  text-align: inherit;
-  /* fill: rgba(255, 255, 255, 0.98);
-  color: rgba(255, 255, 255, 0.98); */
-  line-height: 24px;
-  font-weight: 600;
-  font-style: normal;
-  font-family: "PT Sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-family: Lora, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-style: italic;
+  color: rgba(120, 120, 120, 1);
+}
+h5 {
+  font-family: Lora, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+ul {
+  margin: 0;
+}
+li {
+  margin: .5em;
 }
 p {
   line-height: 28px;
   margin-top: 1.56em;
   font-size: 18px;
   margin-bottom: -0.46em;
-  font-family: Vollkorn, Georgia, Cambria, "Times New Roman", Times, serif;
   letter-spacing: -0.003em;
   word-break: break-word;
-  color: rgba(41, 41, 41, 1);
-  font-style: normal;
-  font-weight: 400;
 }
 a {
-  color: rgba(41, 41, 41, 1);
+  color: rgba(120, 120, 120, 1);
+}
+.container {
+  max-width: 40rem;
+  padding: 1rem;
+  margin: 0 auto;
+}
+header {
+  padding: 2em 0;
 }
 nav a {
   text-decoration: none;
 }
 .main-nav {
-  display: flex;
-  justify-content: center;
+  margin: 0 0 2em;
 }
 .main-nav a {
+  display: inline-block;
   margin: 1em;
-  color: rgba(10, 177, 255, 1);
+  color: rgba(10, 177, 255, .6);
+  font-weight: 700;
 }
 .main-nav a.router-link-exact-active {
   color: rgba(2, 125, 182, 1);
-  border-bottom: 2px solid rgba(2, 125, 182, 1);;
+  border-bottom: 2px solid rgba(2, 125, 182, 1);
 }
-/* ul {
-  font-size: .9rem;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-li {
-  margin: 0 0 .2rem .5rem;
-  padding: 0;
-}
-li a {
-  display: block;
-}
-a:visited {
-  color: #223578;
-}
-a:hover {
-  color: #4b60ac;
-} */
-
-footer p {
-  fill: rgba(0, 0, 0, 0.7);
-  color: rgba(0, 0, 0, 0.7);
-  letter-spacing: 0px;
-  font-size: 15.8px;
-  line-height: 20px;
-  font-style: normal;
-  font-family: "PT Sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-  display: block;
-  font-weight: 400;
-}
-@media (min-width: 552px) {
+/* @media (min-width: 552px) {
   h2 {
     line-height: 40px;
     margin-top: 0.72em;
@@ -158,5 +123,13 @@ footer p {
     line-height: 1.58;
     word-wrap: break-word;
   }
+} */
+.additional-info {
+  color: #666;
+}
+.additional-info p, .additional-info ul {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
 </style>

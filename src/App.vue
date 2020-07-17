@@ -26,7 +26,7 @@ export default {
 }
 </script>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Montserrat:wght@0,400;1,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Montserrat:wght@0,400;1,700&display=swap'); */
 
 html {
   /* background: no-repeat url('./assets/yosemite-unsplash.jpeg');

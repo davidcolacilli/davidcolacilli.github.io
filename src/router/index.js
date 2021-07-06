@@ -6,13 +6,9 @@ import Work from '../views/Work.vue'
 Vue.use(VueRouter)
 
   const routes = [
-  // {
-  //   path: '/',
-  //   name: 'About',
-  //   component: About
-  // },
   {
     path: '/',
+    base: "/",
     name: 'About',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route

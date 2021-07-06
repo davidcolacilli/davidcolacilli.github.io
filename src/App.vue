@@ -109,12 +109,12 @@ nav a {
 .main-nav a {
   display: inline-block;
   margin: 1em;
-  color: rgba(10, 177, 255, .3);
-  font-weight: 700;
+  color: rgba(10, 177, 255, .4);
 }
 .main-nav a.router-link-exact-active {
+  border-bottom: 2px solid rgba(10, 177, 255, .6);
   color: rgba(10, 177, 255, .6);
-  border-bottom: 2px solid rgba(41, 51, 56, 0.6);
+  font-weight: 700;
 }
 @media (min-width: 1024px) {
   html {

@@ -7,8 +7,9 @@ set -e
 npm run build
 
 # navigate into the build output directory
-mv dist ../davidcolacilli.github.io
-cd ../davidcolacilli.github.io
+#mv dist ../davidcolacilli.github.io
+#cd ../davidcolacilli.github.io
+cd dist
 
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME

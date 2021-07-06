@@ -121,10 +121,11 @@ nav a {
     background-attachment: fixed;
     background-blend-mode: overlay;
     background-color: #f8f8f8;
+    /*
     background-image: url('https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1948&q=80');
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
   }
 } 
 .additional-info {

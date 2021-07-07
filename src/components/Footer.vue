@@ -3,7 +3,7 @@
     <h2>Contact</h2>
     <nav>
         <a href="https://www.linkedin.com/in/david-colacilli/">LinkedIn</a>
-        <a href="https://www.behance.net/david-colacilli">Behance</a>
+        <a href="https://www.behance.net/davidcolacilli">Behance</a>
         <a href="mailto:davidcolacilli@gmail.com">Mail</a>
     </nav>
     <!-- <address>davidcolacilli@gmail.com</address> -->
@@ -19,7 +19,13 @@ nav {
 a {
   display: block;
   font-weight: 700;
-  color: rgba(10, 177, 255, .6);
   margin: .5em 0;
+    /* color: #00589B; */
+    /* color: #00A0B0; */
+    /* color: #CF5C78; */
+    /* color: #F5DF4D */
+    /* color: #F0EEE9; */
+    /* color: #939597; */
+    /* color: #FFF; */
 }
 </style>

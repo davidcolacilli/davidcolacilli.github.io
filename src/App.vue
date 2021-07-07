@@ -29,19 +29,35 @@ export default {
 
 body {
   margin: 0;
+  color: #333;
   font-family: Lora, Georgia, Cambria, "Times New Roman", Times, serif;
-  color:rgba(41, 41, 41, 1);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    /* background-color: #00589B; */
+    /* background-color: #00A0B0; */
+    /* background-color: #CF5C78; */
+    /* background-color: #F5DF4D */
+    /* background-color: #F0EEE9; */
+    /* background-color: #939597; */
+    /* background-color: #FFF; */
 }
-h1, h2, h3, h4, h5, h6, nav {
-  font-family: Poppins, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+
+h1,h2,h3,h4,h5 {
+  font-family: 'DM Serif Text';
+  font-weight: 400;
 }
+
 h1 {
+  /* font-family: Poppins, Helvetica, Arial, sans-serif; */
   font-size: 2.5em;
-  color: rgba(2, 125, 182, 1);
   margin: 0;
+    /* color: #00589B; */
+    /* color: #00A0B0; */
+    /* color: #CF5C78; */
+    /* color: #F5DF4D */
+    /* color: #F0EEE9; */
+    /* color: #939597; */
+    /* color: #FFF; */
 }
 h1 + p {
   margin-top: -.25rem;
@@ -49,49 +65,101 @@ h1 + p {
   font-size: .9rem;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  color:rgba(41, 41, 41, .75);
+    /* color: #00589B; */
+    /* color: #00A0B0; */
+    /* color: #CF5C78; */
+    /* color: #F5DF4D */
+    /* color: #F0EEE9; */
+    /* color: #939597; */
+    /* color: #FFF; */
 }
 h2 {
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  font-weight: 700;
   font-size: 2em;
-  color: #CCC;
+  line-height: 1.5;
+  color: #DDD;
+    /* color: #00589B; */
+    /* color: #00A0B0; */
+    /* color: #CF5C78; */
+    /* color: #F5DF4D */
+    /* color: #F0EEE9; */
+    /* color: #939597; */
+    /* color: #FFF; */
 }
 h3 {
   margin: 0;
   padding: 0;
-  color: #333;
+  /* font-family: Poppins, Helvetica, Arial, sans-serif; */
+  /* font-weight: 700; */
   font-size: 1.5em;
   line-height: 125%;
   letter-spacing: normal;
   text-align: left;
+    /* color: #00589B; */
+    /* color: #00A0B0; */
+    /* color: #CF5C78; */
+    /* color: #F5DF4D */
+    /* color: #F0EEE9; */
+    /* color: #939597; */
+    /* color: #FFF; */
 }
 h4 {
+  /* font-family: Poppins, Helvetica, Arial, sans-serif; */
+  /* font-weight: 700; */
   font-family: Lora, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-weight: 400;
   font-style: italic;
-  color: rgba(120, 120, 120, 1);
+  line-height: 1.5;
+    /* color: #00589B; */
+    /* color: #00A0B0; */
+    /* color: #CF5C78; */
+    /* color: #F5DF4D */
+    /* color: #F0EEE9; */
+    /* color: #939597; */
+    /* color: #FFF; */
 }
 h5 {
   font-family: Poppins, Helvetica, Arial, sans-serif;
+  font-weight: 700;
   margin-bottom: 0.75em;
-}
-li {
-  margin: .5em;
+  line-height: 1.5;
+    /* color: #00589B; */
+    /* color: #00A0B0; */
+    /* color: #CF5C78; */
+    /* color: #F5DF4D */
+    /* color: #F0EEE9; */
+    /* color: #939597; */
+    /* color: #FFF; */
 }
 p {
   margin: 10px 0;
   padding: 0;
-  color: #202020;
-  font-family: Lora, Georgia,Times,'Times New Roman',serif;
   font-size: 18px;
   line-height: 150%;
   text-align: left;
-
-  letter-spacing: -0.003em;
   word-break: break-word;
+    /* color: #00589B; */
+    /* color: #00A0B0; */
+    /* color: #CF5C78; */
+    /* color: #F5DF4D */
+    /* color: #F0EEE9; */
+    /* color: #939597; */
+    /* color: #FFF; */
 }
 a {
-  color: rgba(120, 120, 120, 1);
+    /* color: #00589B; */
+    /* color: #00A0B0; */
+    color: #CF5C78;
+    /* color: #F5DF4D */
+    /* color: #F0EEE9; */
+    /* color: #939597; */
+    /* color: #FFF; */
 }
+li {
+  margin: .5em;
+}
+
+/*SECTIONS*/
 .container {
   max-width: 35rem;
   padding: 1rem;
@@ -99,6 +167,10 @@ a {
 }
 header {
   padding: 2em 0;
+}
+nav {
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
 }
 nav a {
   text-decoration: none;
@@ -109,13 +181,45 @@ nav a {
 .main-nav a {
   display: inline-block;
   margin: 1em;
-  color: rgba(10, 177, 255, .4);
+    /* color: #00589B; */
+    /* color: #00A0B0; */
+    /* color: #CF5C78; */
+    /* color: #F5DF4D */
+    /* color: #F0EEE9; */
+    /* color: #939597; */
+    /* color: #FFF; */
+  opacity: .6
 }
 .main-nav a.router-link-exact-active {
-  border-bottom: 2px solid rgba(10, 177, 255, .6);
-  color: rgba(10, 177, 255, .6);
+  /* border-bottom: 2px solid rgba(0, 0, 0, .6); */
   font-weight: 700;
+    /* color: #00589B; */
+    /* color: #00A0B0; */
+    /* color: #CF5C78; */
+    /* color: #F5DF4D */
+    /* color: #F0EEE9; */
+    /* color: #939597; */
+    /* color: #FFF; */
+    opacity: 1
 }
+
+.additional-info {
+    /* color: #00589B; */
+    /* color: #00A0B0; */
+    /* color: #CF5C78; */
+    /* color: #F5DF4D */
+    /* color: #F0EEE9; */
+    /* color: #939597; */
+    /* color: #FFF; */
+}
+.additional-info p, .additional-info ul {
+  /* font-family: Lora, Georgia,Times,'Times New Roman',serif; */
+  /*font-family: 'DM Serif Text';*/
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+}
+
 @media (min-width: 1024px) {
     /*
   html {
@@ -128,13 +232,5 @@ nav a {
     background-size: cover;
   }
   */
-} 
-.additional-info {
-  color: #666;
-}
-.additional-info p, .additional-info ul {
-  font-family: Poppins, Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 13px;
 }
 </style>

@@ -1,4 +1,4 @@
-# dc-dev-vue
+# davidcolacilli.github.io
 
 ## Project setup
 ```
@@ -15,6 +15,13 @@ npm run serve
 npm run build
 ```
 
+### Updates Github
+```
+git add dist
+git commit -m 'adding dist subtree'
+git subtree push --prefix dist origin gh-pages
+```
+
 ### Lints and fixes files
 ```
 npm run lint
@@ -22,4 +29,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-# dc-dev-vue
+# davidcolacilli.github.io

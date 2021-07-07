@@ -90,6 +90,21 @@
           <p>HTML, CSS, jQuery, Javascript, Visual Studio, TFS, Adobe Photoshop, Sketch</p>
         </div>
       </section>
+      <section>
+        <h3>Online News</h3>
+        <h4>UI Developer in a project involving small team management and Web UI development for a multi-client website (July 2014 - November 2015)</h4>
+        <p>The client is a very well-known American newspaper print and online media publishing company in LA, Chicago and many satellite cities.</p>
+        <div class="additional-info">
+          <h5>Tasks</h5>
+          <ul>
+            <li>Web UI development</li>
+            <li>Team management</li>
+            <li>Technical interviews for new hires</li>
+          </ul>
+          <h5>Tools</h5>
+          <p>HTML, CSS, jQuery, Adobe Photoshop</p>
+        </div>
+      </section>
     </article>
   </div>
 </template>

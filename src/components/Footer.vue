@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <h2>Contact</h2>
+    <h2 id="contact">Contact</h2>
     <nav>
         <a href="https://www.linkedin.com/in/david-colacilli/">LinkedIn</a>
         <a href="https://www.behance.net/davidcolacilli">Behance</a>

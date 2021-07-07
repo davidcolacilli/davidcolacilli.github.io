@@ -12,6 +12,7 @@
       <nav class="main-nav">
         <router-link to="/">About</router-link>
         <router-link to="/work">Work</router-link>
+        <a href="#contact">Contact</a>
       </nav>
       <router-view></router-view>
       <Footer/>
@@ -199,6 +200,8 @@ nav a {
 .main-nav a {
   display: inline-block;
   margin: 1em;
+  opacity: .75
+
     /* color: #00589B; */
     /* color: #00A0B0; */
     /* color: #CF5C78; */
@@ -206,11 +209,12 @@ nav a {
     /* color: #F0EEE9; */
     /* color: #939597; */
     /* color: #FFF; */
-  opacity: .6
 }
 .main-nav a.router-link-exact-active {
   /* border-bottom: 2px solid rgba(0, 0, 0, .6); */
   font-weight: 700;
+  opacity: 1
+
     /* color: #00589B; */
     /* color: #00A0B0; */
     /* color: #CF5C78; */
@@ -218,7 +222,6 @@ nav a {
     /* color: #F0EEE9; */
     /* color: #939597; */
     /* color: #FFF; */
-    opacity: 1
 }
 
 .additional-info {

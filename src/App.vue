@@ -51,7 +51,7 @@ h1,h2,h3,h4,h5 {
 
 h1 {
   /* font-family: Poppins, Helvetica, Arial, sans-serif; */
-  font-size: 2.5em;
+  font-size: 1.5em;
   margin: 0;
     /* color: #00589B; */
     /* color: #00A0B0; */
@@ -62,10 +62,10 @@ h1 {
     /* color: #FFF; */
 }
 h1 + p {
-  /* margin-bottom: 0; */
+  margin-bottom: 0.3rem;
   margin-top: -.25rem;
   font-family: Poppins, Helvetica, Arial, sans-serif;
-  font-size: .9rem;
+  font-size: .5rem;
   text-transform: uppercase;
   letter-spacing: 1.5px;
     /* color: #00589B; */
@@ -169,13 +169,15 @@ li {
   margin: 0 auto;
 }
 header {
-  padding: 2em 0;
+  margin: -1em;
+  padding: 2em 1em;
+  background: #fafafa;
   display: flex;
   align-items: center;
 }
 .profile {
   border-radius: 50%;
-  width: 90px;
+  width: 50px;
   height: auto;
   display: block;
   margin-right: 1em;
@@ -189,7 +191,7 @@ nav a {
 }
 .main-nav {
   margin: 0 -1em 2em -1em;
-  background: #fcfcfc;
+  background: #fafafa;
   border-radius: 15px;
   padding: 0 5px;
   box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 10%);
@@ -236,8 +238,28 @@ nav a {
   font-size: 13px;
 }
 
-@media (min-width: 1024px) {
-    /*
+@media (min-width: 590px) {
+  header {
+    margin: 0;
+    padding: 2em 0;
+    background: #FFF;
+  }
+  .main-nav {
+    background: #FCFCFC;
+  }
+  /*
+  .profile {
+    width: 90px;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h1 + p {
+    margin-bottom: 0.3rem;
+    font-size: .9rem;
+  }
+  */
+  /*
   html {
     background-attachment: fixed;
     background-blend-mode: overlay;

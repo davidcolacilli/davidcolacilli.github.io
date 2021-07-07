@@ -2,8 +2,11 @@
     <div class="container">
       <header>
         <!-- <router-link to="/"> -->
-          <h1>David Colacilli</h1>
-          <p>UX designer / UI Developer</p>
+          <img src="profile-picture.jpeg" alt="Profile Picture">
+          <div>
+            <h1>David Colacilli</h1>
+            <p>UX designer / UI Developer</p>
+          </div>
         <!-- </router-link> -->
       </header>
       <nav class="main-nav">
@@ -26,7 +29,6 @@ export default {
 }
 </script>
 <style>
-
 body {
   margin: 0;
   color: #333;
@@ -60,6 +62,7 @@ h1 {
     /* color: #FFF; */
 }
 h1 + p {
+  /* margin-bottom: 0; */
   margin-top: -.25rem;
   font-family: Poppins, Helvetica, Arial, sans-serif;
   font-size: .9rem;
@@ -167,6 +170,15 @@ li {
 }
 header {
   padding: 2em 0;
+  display: flex;
+  align-items: center;
+}
+img {
+  border-radius: 50%;
+  width: 90px;
+  height: auto;
+  display: block;
+  margin-right: 1em;
 }
 nav {
   font-family: Poppins, Helvetica, Arial, sans-serif;
@@ -176,7 +188,11 @@ nav a {
   text-decoration: none;
 }
 .main-nav {
-  margin: 0 0 2em -1em;
+  margin: 0 -1em 2em -1em;
+  background: #fcfcfc;
+  border-radius: 15px;
+  padding: 0 5px;
+  box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 10%);
 }
 .main-nav a {
   display: inline-block;

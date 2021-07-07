@@ -3,6 +3,33 @@
     <article class="content">
       <h2>UX Design</h2>
       <section>
+          <h3>Presta</h3>
+          <figure>
+            <a href="https://lnkd.in/dZwMz9i" target="_blank">
+              <img src="presta-low.png" alt="Presta App slide">
+              <caption>See presentation</caption>
+            </a>
+          </figure>
+          <h4>App Design. Project for Coderhouse UX/UI Design course (February 2021 - May 2021)</h4>
+          <p>The designed application is a tool to register borrowed and lent items, as well as configuring reminders for the same purpose.</p>
+          <p>The full UX journey was explored.</p>
+          <div class="additional-info">
+            <h5>Tasks</h5>
+            <ul>
+                <li>Empathise with the user's needs and goals</li>
+                <li>Research and analyse; build user personas</li>
+                <li>Design: Wireframing</li>
+                <li>Testing and iteration</li>
+                <li>Design: Functional prototype</li>
+                <li>Logo design</li>
+                <li>IU Kit, moodboard</li>
+                <li>Mockups</li>
+            </ul>
+            <h5>Tools</h5>
+          <p>Figma, Optimal Workshop, Whimsical</p>
+          </div>
+      </section>
+      <section>
           <h3>Benchmarking Tool</h3>
           <h4>UX Designer in a project involving redesign of a benchmarking web application (January 2019 - June 2020)</h4>
           <p>The client offers many products/services in the benchmarking industry, which is the automation of the process of data gathering resulting in significant metrics. The main purpose is to identify solutions to close performance gaps and jumpstart improvement in different industries. </p>
@@ -71,6 +98,29 @@ article {
   margin: 2em 0 5em;
 }
 section {
-  margin: 2em 0 3em;
+  margin: 2em 0;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #f0f0f0;
+}
+section:last-child {
+  border: none;
+  padding-bottom: 0;
+}
+figure {
+  margin: 1em 0;
+}
+caption {
+  display: block;
+  text-align: center;
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+}
+figure a {
+  display: block;
+}
+figure img {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 1px 3px 0 rgb(0 0 0 / 15%);
 }
 </style>

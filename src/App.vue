@@ -2,7 +2,7 @@
     <div class="container">
       <header>
         <!-- <router-link to="/"> -->
-          <img src="profile-picture.jpeg" alt="Profile Picture">
+          <img class="profile" src="profile-picture.jpeg" alt="Profile Picture">
           <div>
             <h1>David Colacilli</h1>
             <p>UX designer / UI Developer</p>
@@ -173,7 +173,7 @@ header {
   display: flex;
   align-items: center;
 }
-img {
+.profile {
   border-radius: 50%;
   width: 90px;
   height: auto;

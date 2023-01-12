@@ -249,8 +249,8 @@ nav a {
 
 @media (min-width: 590px) {
   header {
-    margin: 2em 0;
-    padding: 0 1em;
+    margin: 2em 1em;
+    padding: 1em 1em 1em 1.5em;
     background: #FFF;
     border-radius: 10px;
     box-shadow: 0px 2px 6px 0px rgb(0 0 0 / 5%);

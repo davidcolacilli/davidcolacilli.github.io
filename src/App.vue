@@ -2,18 +2,18 @@
     <div class="container">
       <header>
         <!-- <router-link to="/"> -->
-          <img class="profile" src="profile-picture.jpeg" alt="Profile Picture">
-          <div>
-            <h1>David Colacilli</h1>
+          <!-- <img class="profile" src="profile-picture.jpeg" alt="Profile Picture"> -->
+          <h1>david colacilli</h1>
+          <!-- <div>
             <p>UX designer / UI Developer</p>
-          </div>
+          </div> -->
         <!-- </router-link> -->
+        <nav class="main-nav">
+          <router-link to="/">About</router-link>
+          <router-link to="/work">Work</router-link>
+          <a href="#contact">Contact</a>
+        </nav>
       </header>
-      <nav class="main-nav">
-        <router-link to="/">About</router-link>
-        <router-link to="/work">Work</router-link>
-        <a href="#contact">Contact</a>
-      </nav>
       <router-view></router-view>
       <Footer/>
     </div>
@@ -51,9 +51,11 @@ h1,h2,h3,h4,h5 {
 }
 
 h1 {
-  /* font-family: Poppins, Helvetica, Arial, sans-serif; */
+  font-family: Poppins, Helvetica, Arial, sans-serif;
   font-size: 1.5em;
-  margin: 0;
+  font-weight: bold;
+  margin: 1em 0 0.5em;
+  text-align: center;
     /* color: #00589B; */
     /* color: #00A0B0; */
     /* color: #CF5C78; */
@@ -62,7 +64,7 @@ h1 {
     /* color: #939597; */
     /* color: #FFF; */
 }
-h1 + p {
+/*h1 + p {
   margin-bottom: 0.3rem;
   margin-top: -.25rem;
   font-family: Poppins, Helvetica, Arial, sans-serif;
@@ -75,8 +77,8 @@ h1 + p {
     /* color: #F5DF4D */
     /* color: #F0EEE9; */
     /* color: #939597; */
-    /* color: #FFF; */
-}
+    /* color: #FFF; 
+}*/
 h2 {
   font-family: Poppins, Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -166,23 +168,25 @@ li {
 /*SECTIONS*/
 .container {
   max-width: 35rem;
-  padding: 1rem;
   margin: 0 auto;
 }
 header {
-  margin: -1em;
-  padding: 2em 1em;
-  background: #fafafa;
+  /* background: #fafafa; */
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 10%);
 }
-.profile {
+.content-wrapper, footer {
+  padding: 0 1em;
+}
+/* .profile {
   border-radius: 50%;
   width: 50px;
   height: auto;
   display: block;
   margin-right: 1em;
-}
+} */
 nav {
   font-family: Poppins, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -191,11 +195,13 @@ nav a {
   text-decoration: none;
 }
 .main-nav {
-  margin: 0 -1em 2em -1em;
-  background: #fafafa;
-  border-radius: 15px;
-  padding: 0 5px;
-  box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 10%);
+  /* margin: 0 -1em 2em -1em; */
+  /* background: #fafafa; */
+  /* border-radius: 15px; */
+  /* padding: 0 5px; */
+  display: flex;
+  justify-content: center;
+
 }
 .main-nav a {
   display: inline-block;
@@ -243,12 +249,25 @@ nav a {
 
 @media (min-width: 590px) {
   header {
-    margin: 0;
-    padding: 2em 0;
+    margin: 2em 0;
+    padding: 0 1em;
     background: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px 0px rgb(0 0 0 / 5%);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
   .main-nav {
-    background: #FCFCFC;
+    /* background: #FCFCFC; */
+    border-radius: 10px;
+  }
+  h1 {
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 0;
+    line-height: 1.5;
   }
   /*
   .profile {

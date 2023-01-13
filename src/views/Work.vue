@@ -150,9 +150,7 @@
   position: relative;
 }
 aside {
-  position: absolute;
-  left: -240px;
-  top: 0;
+  display: none;
 }
 article {
   margin: 2em 0 5em;
@@ -180,15 +178,26 @@ figure a {
 figure img {
   display: block;
   width: 100%;
-  border-radius: 20px;
-  box-shadow: 0px 1px 3px 0 rgb(0 0 0 / 15%);
+  border-radius: 10px;
+  box-shadow: 0px 1px 3px 0 rgb(0 0 0 / 10%);
 }
 .back-to-top {
   font-family: Helvetica, Arial, sans-serif;
   font-size: .6em;
   display: block;
   text-align: right;
-  /* font-weight: 600; */
-  /* text-decoration: none; */
+}
+@media (min-width: 1024px) {
+  aside {
+    display: block;
+    position: absolute;
+    left: -214px;
+    top: 0;
+  }
+}
+@media (min-width: 1120px) {
+  aside {
+    left: -240px;
+  }
 }
 </style>

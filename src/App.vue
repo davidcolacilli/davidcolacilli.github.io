@@ -89,7 +89,7 @@ li {
 
 /*SECTIONS*/
 .container {
-  max-width: 35rem;
+  max-width: 32rem;
   margin: 0 auto;
 }
 header {
@@ -148,5 +148,10 @@ nav a {
     margin: 0;
     line-height: 1.5;
   }
+  @media (min-width: 1120px) {
+  .container {
+    max-width: 35rem;   
+  }
+}
 }
 </style>

@@ -27,7 +27,8 @@ export default {
 </script>
 <style>
 html {
-  background-color: #f0f0f0;
+  background-color: #fafafa;
+  background-color: #fff;
 }
 body {
   margin: 0;
@@ -85,7 +86,7 @@ p {
   word-break: break-word;
 }
 a {
-    color: #1165d7;
+    color: #9e741a;
 }
 li {
   margin: .5em;
@@ -142,7 +143,8 @@ nav a {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #f0f0f0;
+    background-color: #fafafa;
+    background-color: #fff;
   }
   .main-nav {
     border-radius: 10px;

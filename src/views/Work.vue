@@ -152,6 +152,16 @@
 aside {
   display: none;
 }
+aside ul {
+  list-style-type: none;
+  padding-left: 1em;
+}
+aside ul a {
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  font-size: 0.75em;
+  font-weight: 600;
+  text-decoration: none;
+}
 article {
   margin: 2em 0 5em;
 }

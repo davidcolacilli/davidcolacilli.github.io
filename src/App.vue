@@ -26,6 +26,9 @@ export default {
 }
 </script>
 <style>
+html {
+  background-color: #f0f0f0;
+}
 body {
   margin: 0;
   color: #333;
@@ -44,7 +47,8 @@ h1 {
   font-size: 1.5em;
   font-weight: bold;
   margin: 1em 0 0.5em;
-  text-align: center;
+  /* text-align: center; */
+  display: none;
 }
 h2 {
   font-family: Poppins, Helvetica, Arial, sans-serif;
@@ -81,7 +85,7 @@ p {
   word-break: break-word;
 }
 a {
-    color: #CF5C78;
+    color: #1165d7;
 }
 li {
   margin: .5em;
@@ -97,6 +101,7 @@ header {
   flex-direction: column;
   justify-content: center;
   box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 10%);
+  background-color: #fff;
 }
 .content-wrapper, footer {
   padding: 0 1em;
@@ -137,21 +142,24 @@ nav a {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    background-color: #f0f0f0;
   }
   .main-nav {
     border-radius: 10px;
   }
   h1 {
+    display: block;
     font-family: Poppins, Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: 1.1em;
     margin: 0;
     line-height: 1.5;
   }
-  @media (min-width: 1120px) {
-  .container {
-    max-width: 35rem;   
-  }
 }
+
+@media (min-width: 1120px) {
+  .container {
+    max-width: 35rem;
+  }
 }
 </style>

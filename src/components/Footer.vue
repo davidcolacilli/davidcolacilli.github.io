@@ -1,6 +1,7 @@
 <template>
   <footer>
     <h2 id="contact">Contact</h2>
+    <!-- <p>Please, feel free to contact me through the following channels:</p> -->
     <nav>
         <a href="https://www.linkedin.com/in/david-colacilli/">LinkedIn</a>
         <a href="https://www.behance.net/davidcolacilli">Behance</a>

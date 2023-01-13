@@ -36,6 +36,7 @@ body {
   font-family: Lora, Georgia, Cambria, "Times New Roman", Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 h1,h2,h3,h4,h5 {

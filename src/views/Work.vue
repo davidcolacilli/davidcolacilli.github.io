@@ -29,7 +29,7 @@
         <section id="project-the-hackett-group">
             <h3>The Hackett Group</h3>
             <figure>
-              <img src="screenshot-thg.png" alt="The Hackett Group App">
+              <img src="thg-low.png" alt="The Hackett Group App">
             </figure>
             <h4>UX Designer at Endava for The Hackett Group, working on the redesign and maintenance of Quantum Leap, a benchmarking web application (January 2019 - today)</h4>
             <p>The client offers many products/services in the benchmarking industry, which is the automation of the process of data gathering resulting in significant metrics. The main purpose is to identify solutions to close performance gaps and jumpstart improvement in different industries. </p>
@@ -52,7 +52,7 @@
         <section id="project-presta">
             <h3>Presta</h3>
             <figure>
-              <a href="https://lnkd.in/dZwMz9i" target="_blank">
+              <a href="https://www.behance.net/gallery/155375405/Presta-Lend-anything" target="_blank">
                 <img src="presta-low.png" alt="Presta App slide">
               </a>
             </figure>
@@ -75,7 +75,7 @@
             <p>Figma, Optimal Workshop, Whimsical</p>
             </div>
             <br>
-            <a href="https://lnkd.in/dZwMz9i" target="_blank">
+            <a href="https://www.behance.net/gallery/155375405/Presta-Lend-anything" target="_blank">
               See Presentation
             </a>
             <br><br><br>

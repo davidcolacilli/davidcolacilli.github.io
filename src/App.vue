@@ -161,6 +161,10 @@ nav a {
   font-weight: 500;
   font-size: 13px;
 }
+.additional-info ul {
+  padding-left: 0;
+  margin-left: -6px;
+}
 
 @media (min-width: 590px) {
   header {
@@ -185,6 +189,10 @@ nav a {
     font-size: 1.1em;
     margin: 0;
     line-height: 1.5;
+  }
+  .additional-info ul {
+    padding-left: 2em;
+    margin-left: 0;
   }
 }
 

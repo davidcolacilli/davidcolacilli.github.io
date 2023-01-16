@@ -73,14 +73,15 @@
                   <li>IU Kit, moodboard</li>
                   <li>Mockups</li>
               </ul>
-              <h5>Tools</h5>
-            <p>Figma, Optimal Workshop, Whimsical</p>
             </div>
-            <br>
+            <div class="additional-info">
+              <h5>Tools</h5>
+              <p>Figma, Optimal Workshop, Whimsical</p>
+            </div>
             <a href="https://www.behance.net/gallery/155375405/Presta-Lend-anything" target="_blank" class="link-button">
               See Presentation
             </a>
-            <br><br><br>
+            <br><br>
             <a href="#" class="back-to-top">Back to Top</a>
         </section>
         <section id="project-vulcan">
@@ -101,8 +102,10 @@
                     <li>participate in demos for stakeholders</li>
                     <li>working with Agile methodology (Scrum)</li>
                 </ul>
-              <h5>Tools</h5>
-              <p>Angular, HTML, CSS, Moqups.</p>
+              </div>
+              <div class="additional-info">
+                <h5>Tools</h5>
+                <p>Angular, HTML, CSS, Moqups.</p>
             </div>
             <a href="#" class="back-to-top">Back to Top</a>
         </section>
@@ -122,6 +125,8 @@
               <li>Providing support to the Dev Team</li>
               <li>Technical interviews for new hires</li>
             </ul>
+          </div>
+          <div class="additional-info">
             <h5>Tools</h5>
             <p>HTML, CSS, jQuery, Javascript, Visual Studio, TFS, Adobe Photoshop, Sketch</p>
           </div>
@@ -138,6 +143,8 @@
               <li>Team management</li>
               <li>Technical interviews for new hires</li>
             </ul>
+          </div>
+          <div class="additional-info">
             <h5>Tools</h5>
             <p>HTML, CSS, jQuery, Adobe Photoshop</p>
           </div>

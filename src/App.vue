@@ -1,7 +1,9 @@
 <template>
   <div>
     <header>
-      <h1>david colacilli</h1>
+      <h1>
+        <router-link to="/">david colacilli</router-link>
+      </h1>
       <nav class="main-nav">
         <router-link to="/">About</router-link>
         <router-link to="/work">Work</router-link>
@@ -104,6 +106,13 @@ header {
   justify-content: center;
   box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 10%);
   background-color: #fff;
+}
+h1 a:link,
+h1 a:visited,
+h1 a:hover,
+h1 a:active {
+  text-decoration: none;
+  color: #000;
 }
 .content-wrapper, footer {
   padding: 0 1em;

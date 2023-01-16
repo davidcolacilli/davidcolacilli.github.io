@@ -44,8 +44,10 @@
                   <li>Provide support to the Dev Team during the implementation of each section </li>
                   <li>Work with Agile methodology (Scrum)</li>
               </ul>
+            </div>
+            <div class="additional-info">
               <h5>Tools</h5>
-            <p>Figma, InVision, Whimsical.</p>
+              <p>Figma, InVision, Whimsical.</p>
             </div>
             <a href="#" class="back-to-top">Back to Top</a>
         </section>
@@ -75,7 +77,7 @@
             <p>Figma, Optimal Workshop, Whimsical</p>
             </div>
             <br>
-            <a href="https://www.behance.net/gallery/155375405/Presta-Lend-anything" target="_blank">
+            <a href="https://www.behance.net/gallery/155375405/Presta-Lend-anything" target="_blank" class="link-button">
               See Presentation
             </a>
             <br><br><br>
@@ -166,9 +168,9 @@ article {
   margin: 2em 0 5em;
 }
 section {
-  margin: 2em 0;
-  padding-bottom: 2em;
-  border-bottom: 1px solid #f0f0f0;
+  margin: 3em 0;
+  padding-bottom: 3em;
+  border-bottom: 2px solid #9e741a75;
 }
 section:last-child {
   border: none;

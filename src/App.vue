@@ -94,6 +94,19 @@ a {
 li {
   margin: .5em;
 }
+.link-button:link,
+.link-button:visited,
+.link-button:hover,
+.link-button:active {
+  padding: 1em;
+  display: block;
+  text-align: center;
+  border: 1px solid #9e741a;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  font-size: .75em;
+}
 
 /*SECTIONS*/
 .container {
@@ -136,6 +149,12 @@ nav a {
 .main-nav a.router-link-exact-active {
   font-weight: 700;
   opacity: 1
+}
+.additional-info {
+  border: 1px solid #fafafa;
+  border-radius: 10px;
+  padding: 0.5em 2em 1em;
+  margin: 2em 0;
 }
 .additional-info p, .additional-info ul {
   font-family: Poppins, Helvetica, Arial, sans-serif;
